@@ -1,0 +1,37 @@
+stock {
+    display: block;
+    background-color: #000; 
+    padding: 50px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+coche {
+    display: block;
+    margin-bottom: 30px;
+    border: 2px solid #d4af37; 
+    padding: 20px;
+    background-color: #111;
+}
+
+marca {
+    display: block;
+    color: #d4af37;
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+modelo {
+    display: block;
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+motor, precio {
+    display: block;
+    color: #ccc;
+    font-size: 1.1em;
+}
+
+precio::before { content: "PVP: "; font-weight: bold; }

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="estilo_xml.css"?>
+<!DOCTYPE stock SYSTEM "stock.dtd">
+<stock>
+    <coche categoria="deportivo">
+        <marca>Ferrari</marca>
+        <modelo>812 GTS</modelo>
+        <motor>V12 - 800 CV</motor>
+        <precio moneda="EUR">339000</precio>
+    </coche>
+    <coche categoria="SUV">
+        <marca>Lamborghini</marca>
+        <modelo>Urus Performante</modelo>
+        <motor>V8 Biturbo - 666 CV</motor>
+        <precio moneda="EUR">295000</precio>
+    </coche>
+</stock>
